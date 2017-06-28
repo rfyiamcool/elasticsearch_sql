@@ -4,6 +4,7 @@
 
 下面实现的用法:  
 
+```
 select * from index.type;
 
 select keyword from index.type;
@@ -19,6 +20,6 @@ select count(id) from index.type where keyword = '宝马' and id = '88' order by
 select avg(price) from index.type where keyword = '宝马' and id = '88' order by id DESC;
 
 select avg(price) from index.type where keyword = '宝马' and id = '88' and cdate between '2015-10-10' and '2015-10-15' ;
+```
 
-
-
+END.
